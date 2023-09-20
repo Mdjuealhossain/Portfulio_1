@@ -2,7 +2,7 @@ import { TypographyVariants as TypographyVariantsOption } from "@mui/material/st
 import { Roboto, Merriweather, DM_Sans } from "next/font/google";
 
 export const roboto = Roboto({
-  weight: ["300", "400", "500", "700"],
+  weight: ["300", "400", "500", "700", "900"],
   style: ["normal", "italic"],
   subsets: ["latin"],
   display: "swap",
@@ -46,7 +46,7 @@ export default {
   },
   h4: {
     ...dm_sans.style,
-    fontWeight: 400,
+    fontWeight: 800,
     fontSize: "2.125rem",
     lineHeight: 1.235,
     letterSpacing: "0.00735em",
@@ -54,14 +54,14 @@ export default {
   h5: {
     ...dm_sans.style,
     fontWeight: 400,
-    fontSize: "1.5rem",
+    fontSize: "1rem",
     lineHeight: 1.334,
     letterSpacing: "0em",
   },
   h6: {
     ...dm_sans.style,
-    fontWeight: 500,
-    fontSize: "1.25rem",
+    fontWeight: 800,
+    fontSize: "1.875rem",
     lineHeight: 1.2,
     letterSpacing: "0.0075em",
   },

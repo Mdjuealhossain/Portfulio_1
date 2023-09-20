@@ -8,10 +8,10 @@ const PortfulioLayout: FC<PortfulioLayoutProps> = ({ children }) => {
   return (
     <>
       <Grid container>
-        <Grid item width={310}>
+        <Grid item width={310} bgcolor="blue">
           <Sidebar />
         </Grid>
-        <Grid item width="calc(100% - 310px)" bgcolor="red">
+        <Grid item width="calc(100% - 310px)">
           {children}
         </Grid>
       </Grid>
