@@ -54,12 +54,12 @@ export default {
     A700: "#616161",
   },
   text: {
-    primary: "#1B2559",
-    secondary: "#707EAE",
+    primary: "#000",
+    secondary: "#767676",
     disabled: "rgba(0, 0, 0, 0.38)",
   },
   action: {
-    active: "rgba(0, 0, 0, 0.54)",
+    active: "rgba(0, 0, 0, 0.65)",
     hover: "rgba(0, 0, 0, 0.04)",
     hoverOpacity: 0.04,
     selected: "rgba(0, 0, 0, 0.08)",
@@ -72,8 +72,8 @@ export default {
     activatedOpacity: 0.12,
   },
   background: {
-    default: "#f5f5f5",
-    paper: "#ffffff",
+    default: "#f8f8f8",
+    paper: "#fefefe",
   },
   common: {
     black: "#000",
