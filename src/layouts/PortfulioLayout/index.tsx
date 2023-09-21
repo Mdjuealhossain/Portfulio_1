@@ -9,7 +9,6 @@ const PortfulioLayout: FC<PortfulioLayoutProps> = ({ children }) => {
     <>
       {/* 0 6px 24px 0 rgba(0,0,0,.05), 0 0 0 1px rgba(0,0,0,.08) */}
       <Grid container height="100%">
-        <Card>iuhuo</Card>
         <Grid item width={270}>
           <Sidebar />
         </Grid>
