@@ -10,10 +10,10 @@ function shadowsTheme({ shadows }: PaletteOptions): ShadowsOptions {
     shadows?.transparentThree || alpha(COLOR, 0.12);
   return [
     `none`,
-    `0px 2px 1px -1px ${TRANSPARENT_ONE},0px 1px 1px 0px ${TRANSPARENT_TWO},0px 1px 3px 0px ${TRANSPARENT_THREE}`,
+    `0 0 20px ${TRANSPARENT_THREE}`,
     `0px 3px 1px -2px ${TRANSPARENT_ONE},0px 2px 2px 0px ${TRANSPARENT_TWO},0px 1px 5px 0px ${TRANSPARENT_THREE}`,
     `0px 3px 3px -2px ${TRANSPARENT_ONE},0px 3px 4px 0px ${TRANSPARENT_TWO},0px 1px 8px 0px ${TRANSPARENT_THREE}`,
-    `0px 2px 4px -1px ${TRANSPARENT_ONE},0px 4px 5px 0px ${TRANSPARENT_TWO},0px 1px 10px 0px ${TRANSPARENT_THREE}`,
+    `0px 6px 24px 0px ${TRANSPARENT_ONE},0px 0px 0px 1px ${TRANSPARENT_TWO}`,
     `0px 3px 5px -1px ${TRANSPARENT_ONE},0px 5px 8px 0px ${TRANSPARENT_TWO},0px 1px 14px 0px ${TRANSPARENT_THREE}`,
     `0px 3px 5px -1px ${TRANSPARENT_ONE},0px 6px 10px 0px ${TRANSPARENT_TWO},0px 1px 18px 0px ${TRANSPARENT_THREE}`,
     `0px 4px 5px -2px ${TRANSPARENT_ONE},0px 7px 10px 1px ${TRANSPARENT_TWO},0px 2px 16px 1px ${TRANSPARENT_THREE}`,
