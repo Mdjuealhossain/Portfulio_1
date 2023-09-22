@@ -8,9 +8,12 @@ import { sidebarData } from "src/app/componentSata/sidebarData";
 const Sidebar: FC<SidebarProps> = () => {
   return (
     <Paper
+      elevation={0}
+      square
       sx={{
         display: "flex",
         height: "100%",
+        width: 270,
         flexDirection: "column",
         justifyContent: "space-between",
       }}
