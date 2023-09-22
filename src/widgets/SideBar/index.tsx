@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { SidebarProps } from "./Types";
-import { Box, ButtonBase, Paper, Stack, Typography } from "@mui/material";
+import { Box, ButtonBase, Link, Paper, Stack, Typography } from "@mui/material";
 import Sidebars from "../Sidbars";
 import HomeIcon from "@mui/icons-material/Home";
 import { sidebarData } from "src/app/componentSata/sidebarData";
@@ -17,7 +17,7 @@ const Sidebar: FC<SidebarProps> = () => {
     >
       <Stack sx={{ pt: 18, px: 5 }}>
         <Box sx={{ pl: 1 }}>
-          <Typography variant="h3">My Project</Typography>
+          <Typography variant="h3">Project</Typography>
         </Box>
         <Stack sx={{ pt: 5, pb: 6.25 }}>
           {sidebarData.map((data) => {
@@ -26,8 +26,16 @@ const Sidebar: FC<SidebarProps> = () => {
           })}
         </Stack>
       </Stack>
-      <Box>
-        <Typography variant="caption">Footer</Typography>
+      <Box textAlign="center" color="text.secondary">
+        <Typography variant="caption">{"Copyright © "}</Typography>
+        <Link variant="caption" href="https://your-website.com/">
+          Versh
+        </Link>
+        <Typography variant="caption">
+          {" "}
+          {new Date().getFullYear()}
+          {"."}
+        </Typography>
       </Box>
     </Paper>
   );

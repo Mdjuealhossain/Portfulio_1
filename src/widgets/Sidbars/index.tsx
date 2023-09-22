@@ -5,7 +5,7 @@ import { Box, IconButton, Typography } from "@mui/material";
 
 const Sidebars: FC<SidebarsProps> = ({ item, link, icon }) => {
   return (
-    <Box display="flex" alignItems="center">
+    <Box display="flex" alignItems="center" color="text.secondary">
       <IconButton>{icon}</IconButton>
       <Typography variant="body2">{item}</Typography>
     </Box>

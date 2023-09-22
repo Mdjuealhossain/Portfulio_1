@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
 import { PortfulioLayoutProps } from "./Types";
-import { Box, Grid, AppBar } from "@mui/material";
+import { Box, Grid, AppBar, Card } from "@mui/material";
 import Sidebar from "src/widgets/SideBar";
 import Header from "src/widgets/Header";
 

@@ -59,10 +59,10 @@ export default {
   },
   h5: {
     ...montserrat.style,
-    fontWeight: 400,
-    fontSize: "1rem",
-    lineHeight: 1.2,
-    letterSpacing: "0em",
+    fontWeight: 600,
+    fontSize: "1.125rem",
+    lineHeight: 1.4,
+    letterSpacing: "0.03125em",
   },
   h6: {
     ...montserrat.style,
@@ -81,9 +81,9 @@ export default {
   subtitle2: {
     ...montserrat.style,
     fontWeight: 500,
-    fontSize: "0.875rem",
-    lineHeight: 1.57,
-    letterSpacing: "0.00714em",
+    fontSize: "0.8125rem",
+    lineHeight: 1.857,
+    letterSpacing: "0.00938em",
   },
   body1: {
     ...montserrat.style,
@@ -116,10 +116,10 @@ export default {
   },
   overline: {
     ...montserrat.style,
-    fontWeight: 400,
-    fontSize: "0.75rem",
-    lineHeight: 2.66,
-    letterSpacing: "0.08333em",
+    fontWeight: 600,
+    fontSize: ".75rem",
+    lineHeight: 1.875,
+    letterSpacing: "0em",
     textTransform: "uppercase",
   },
 } as TypographyVariants;
