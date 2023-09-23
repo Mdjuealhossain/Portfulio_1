@@ -47,7 +47,7 @@ const PortfulioLayout: FC<PortfulioLayoutProps> = ({ children }) => {
         height="100%"
         sx={{ display: { xs: "none", lg: "flex" } }}
       >
-        <Grid item width={270} bgcolor="red">
+        <Grid item width={270}>
           <Sidebar />
         </Grid>
         <Grid item width="calc(100% - 270px)">
