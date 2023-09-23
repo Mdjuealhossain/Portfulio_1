@@ -34,7 +34,7 @@ export default {
   success: {
     dark: "#388e3c",
     main: "#66bb6a",
-    light: "#81c784",
+    light: "hsla(0,0%,100%,.2)",
     contrastText: "rgba(0, 0, 0, 0.87)",
   },
   grey: {
