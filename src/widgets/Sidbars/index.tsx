@@ -1,7 +1,9 @@
 "use client";
 import React, { FC } from "react";
-import { SidebarsProps } from "./Types";
+
 import { Box, IconButton, Typography } from "@mui/material";
+
+import { SidebarsProps } from "./Types";
 
 const Sidebars: FC<SidebarsProps> = ({ item, link, icon }) => {
   return (

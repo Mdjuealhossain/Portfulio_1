@@ -1,12 +1,13 @@
 "use client";
 import React, { FC, useContext } from "react";
 
-import { PortfulioLayoutProps } from "./Types";
-import { Box, Grid, AppBar, Card, IconButton } from "@mui/material";
+import { Box, Grid, IconButton } from "@mui/material";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
 import Sidebar from "src/widgets/SideBar";
 import Header from "src/widgets/Header";
 import { ColorModeContext } from "src/theme";
+
+import { PortfulioLayoutProps } from "./Types";
 
 const MuiBox = () => {
   const { toggleColorMode } = useContext(ColorModeContext);
