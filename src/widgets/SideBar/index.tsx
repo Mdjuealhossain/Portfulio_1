@@ -1,16 +1,20 @@
 import { FC } from "react";
-import { SidebarProps } from "./Types";
-import { Box, ButtonBase, Link, Paper, Stack, Typography } from "@mui/material";
+
+import { Box, Link, Paper, Stack, Typography } from "@mui/material";
 import Sidebars from "../Sidbars";
-import HomeIcon from "@mui/icons-material/Home";
 import { sidebarData } from "src/app/componentSata/sidebarData";
+
+import { SidebarProps } from "./Types";
 
 const Sidebar: FC<SidebarProps> = () => {
   return (
     <Paper
+      elevation={0}
+      square
       sx={{
         display: "flex",
         height: "100%",
+        width: 270,
         flexDirection: "column",
         justifyContent: "space-between",
       }}
