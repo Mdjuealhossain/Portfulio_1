@@ -14,7 +14,9 @@ const LinkBehavior = forwardRef<
 
 const MuiLink: Components<Theme>["MuiLink"] = {
   styleOverrides: {
-    root: ({ theme, ownerState }) => ({}),
+    root: ({ theme, ownerState }) => ({
+      textDecoration: "none",
+    }),
   },
   defaultProps: {
     component: LinkBehavior,

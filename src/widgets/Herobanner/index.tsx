@@ -11,7 +11,7 @@ const HeroBanner: FC<HeroBannerProps> = () => {
     <Stack height="100%" justifyContent="center" mb={4.2}>
       <Box mb={3.75}>
         <Typography variant="h2">
-          HI,IM JUEAL CREATIVE
+          HI,IM JUEAL! CREATIVE
           <Box sx={(theme) => ({ color: theme.palette.primary.light })}>
             <Typography variant="h2" sx={{ fontSize: 55 }}>
               Developer
