@@ -38,10 +38,11 @@ export default {
   },
   h2: {
     ...montserrat.style,
-    fontWeight: 400,
+    fontWeight: 700,
     fontSize: "3.75rem",
     lineHeight: 1.2,
-    letterSpacing: "-0.00833em",
+    letterSpacing: "0.03125em",
+    textTransform: "uppercase",
   },
   h3: {
     ...montserrat.style,

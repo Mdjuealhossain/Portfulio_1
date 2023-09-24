@@ -4,7 +4,7 @@ export default {
   primary: {
     dark: "#42a5f5",
     main: "#90caf9",
-    light: "#e3f2fd",
+    light: "#55e6a5",
     contrastText: "rgba(0, 0, 0, 0.87)",
   },
   secondary: {
