@@ -3,6 +3,8 @@ import React, { FC, useContext } from "react";
 
 import { Box, Grid, IconButton } from "@mui/material";
 import DarkModeIcon from "@mui/icons-material/DarkMode";
+import { useTheme } from "@mui/material/styles";
+import LightModeIcon from "@mui/icons-material/LightMode";
 import Sidebar from "src/widgets/SideBar";
 import Header from "src/widgets/Header";
 import { ColorModeContext } from "src/theme";
@@ -11,6 +13,9 @@ import { PortfulioLayoutProps } from "./Types";
 
 const MuiBox = () => {
   const { toggleColorMode } = useContext(ColorModeContext);
+  const theme = useTheme();
+  const mode =
+    theme.palette.mode === "dark" ? <LightModeIcon /> : <DarkModeIcon />;
   return (
     <Box
       position="absolute"
@@ -26,9 +31,7 @@ const MuiBox = () => {
       alignItems="center"
       borderRadius="32px 0 0 32px"
     >
-      <IconButton>
-        <DarkModeIcon onClick={toggleColorMode} />
-      </IconButton>
+      <IconButton onClick={toggleColorMode}>{mode}</IconButton>
     </Box>
   );
 };
