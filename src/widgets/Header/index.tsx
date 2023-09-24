@@ -7,6 +7,8 @@ import ViewHeadlineIcon from "@mui/icons-material/ViewHeadline";
 import Typography from "@mui/material/Typography";
 import Toolbar from "@mui/material/Toolbar";
 import Drawer from "@mui/material/Drawer";
+import LightModeIcon from "@mui/icons-material/LightMode";
+import { useTheme } from "@mui/material/styles";
 import Sidebar from "../SideBar";
 import { ColorModeContext } from "src/theme";
 
@@ -15,6 +17,9 @@ import { HeaderProps } from "./Types";
 const Header: FC<HeaderProps> = () => {
   const [open, setOpen] = useState(false);
   const { toggleColorMode } = useContext(ColorModeContext);
+  const theme = useTheme();
+  const mode =
+    theme.palette.mode === "dark" ? <LightModeIcon /> : <DarkModeIcon />;
 
   return (
     <AppBar color="inherit">
@@ -22,9 +27,7 @@ const Header: FC<HeaderProps> = () => {
         <Typography sx={{ letterSpacing: 3 }} variant="h3" flexGrow={1}>
           PORT
         </Typography>
-        <IconButton onClick={toggleColorMode}>
-          <DarkModeIcon />
-        </IconButton>
+        <IconButton onClick={toggleColorMode}>{mode}</IconButton>
         <IconButton onClick={() => setOpen(true)}>
           <ViewHeadlineIcon />
         </IconButton>
