@@ -39,9 +39,9 @@ export default {
   h2: {
     ...montserrat.style,
     fontWeight: 700,
-    fontSize: "3.75rem",
+    fontSize: "3.458rem",
     lineHeight: 1.2,
-    letterSpacing: "0.03125em",
+    letterSpacing: "0px",
     textTransform: "uppercase",
   },
   h3: {

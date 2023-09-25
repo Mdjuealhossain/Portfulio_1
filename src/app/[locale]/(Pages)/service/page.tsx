@@ -1,6 +1,8 @@
-import React from "react";
+import { FC } from "react";
 
-const Service = () => {
+import { ServiceProps } from "./Types";
+
+const Service: FC<ServiceProps> = () => {
   return <div>Service</div>;
 };
 
