@@ -8,7 +8,7 @@ import { HeroBannerProps } from "./Types";
 
 const HeroBanner: FC<HeroBannerProps> = () => {
   return (
-    <Stack height="100%" justifyContent="center" mb={4.2}>
+    <Stack height="100%" justifyContent="center">
       <Box mb={3.75}>
         <Typography variant="h2">
           HI,IM JUEAL! CREATIVE
@@ -19,7 +19,7 @@ const HeroBanner: FC<HeroBannerProps> = () => {
           </Box>
         </Typography>
       </Box>
-      <Box mb={8.125} color="text.secondary">
+      <Stack mb={8.125} color="text.secondary">
         <Typography variant="body2">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat aut
           doloremque consequuntur! Minima nisi ea, sapiente quo quibusdam
@@ -28,8 +28,8 @@ const HeroBanner: FC<HeroBannerProps> = () => {
           incidunt saepe ducimus qui commodi. Nostrum, ab ipsum doloremque
           quidem ex maxime quas!
         </Typography>
-      </Box>
-      <Stack flexWrap="wrap" alignItems="center" mb={3.5} flexDirection="row">
+      </Stack>
+      <Stack flexWrap="wrap" alignItems="center" my={3.5} flexDirection="row">
         <Link
           href="#"
           px={5}
