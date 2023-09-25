@@ -1,6 +1,8 @@
-import React from "react";
+import { FC } from "react";
 
-const About = () => {
+import { AboutProps } from "./Types";
+
+const About: FC<AboutProps> = () => {
   return <div>About</div>;
 };
 

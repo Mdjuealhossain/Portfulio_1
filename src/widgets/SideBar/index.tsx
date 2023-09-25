@@ -21,7 +21,9 @@ const Sidebar: FC<SidebarProps> = () => {
     >
       <Stack sx={{ pt: 18, px: 5 }}>
         <Box sx={{ pl: 1 }}>
-          <Typography variant="h3">Project</Typography>
+          <Link href="/" variant="h3" color="text.primary">
+            Project
+          </Link>
         </Box>
         <Stack sx={{ pt: 5, pb: 6.25 }}>
           {sidebarData.map((data) => {

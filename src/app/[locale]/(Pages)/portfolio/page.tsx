@@ -1,6 +1,8 @@
-import React from "react";
+import { FC } from "react";
 
-const Portfolio = () => {
+import { PortfolioProps } from "./Types";
+
+const Portfolio: FC<PortfolioProps> = () => {
   return <div>Portfolio</div>;
 };
 

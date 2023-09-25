@@ -15,31 +15,31 @@ export const sidebarData = [
   {
     id: "2",
     item: "About",
-    link: "/",
+    link: "/about",
     icon: <Person4Icon sx={{ height: 20, width: 20 }} />,
   },
   {
     id: "3",
     item: "Service",
-    link: "/",
+    link: "/service",
     icon: <SettingsIcon sx={{ height: 20, width: 20 }} />,
   },
   {
     id: "4",
     item: "Portfolio",
-    link: "/",
+    link: "/portfolio",
     icon: <BusinessCenterIcon sx={{ height: 20, width: 20 }} />,
   },
   {
     id: "5",
     item: "Blogs",
-    link: "/",
+    link: "/blog",
     icon: <DescriptionIcon sx={{ height: 20, width: 20 }} />,
   },
   {
     id: "6",
     item: "Contact",
-    link: "/",
+    link: "/contact",
     icon: <LocalPostOfficeIcon sx={{ height: 20, width: 20 }} />,
   },
 ];
