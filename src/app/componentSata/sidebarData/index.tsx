@@ -32,7 +32,7 @@ export const sidebarData = [
   },
   {
     id: "5",
-    item: "News",
+    item: "Blogs",
     link: "/",
     icon: <DescriptionIcon sx={{ height: 20, width: 20 }} />,
   },
