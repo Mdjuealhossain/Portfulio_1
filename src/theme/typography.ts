@@ -31,9 +31,9 @@ export default {
   fontWeightBold: 700,
   h1: {
     ...montserrat.style,
-    fontWeight: 400,
-    fontSize: "6rem",
-    lineHeight: 1.2,
+    fontWeight: 600,
+    fontSize: "8.25rem",
+    lineHeight: 1.3,
     letterSpacing: "-0.01562em",
   },
   h2: {
@@ -46,7 +46,7 @@ export default {
   },
   h3: {
     ...montserrat.style,
-    fontWeight: 800,
+    fontWeight: 700,
     fontSize: "1.875rem",
     lineHeight: 1.2,
     letterSpacing: "0.03125em",
